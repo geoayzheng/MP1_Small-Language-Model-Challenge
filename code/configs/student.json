@@ -1,0 +1,18 @@
+{
+  "context": 256,
+  "vocab": 2048,
+  "width": 128,
+  "depth": 12,
+  "heads": 4,
+  "pos_encoding": "rope",
+  "rope_theta": 10000.0,
+  "mlp": "swiglu",
+  "mlp_hidden": 341,
+  "dropout": 0.10,
+  "tie_weights": false,
+  "lr": 0.001,
+  "weight_decay": 0.1,
+  "warmup_steps": 100,
+  "min_lr_frac": 0.0,
+  "ema_decay": 0.999
+}

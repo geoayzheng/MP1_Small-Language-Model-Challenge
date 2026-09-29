@@ -1,0 +1,38 @@
+{
+  "cache_pairs": [
+    {
+      "pair": [
+        "arm_no19k",
+        "arm_cache19k"
+      ],
+      "identical_training_losses": true,
+      "identical_validation_bpb": true
+    },
+    {
+      "pair": [
+        "arm_kd19k",
+        "arm_both19k"
+      ],
+      "identical_training_losses": true,
+      "identical_validation_bpb": true
+    },
+    {
+      "pair": [
+        "ab_main4800",
+        "ab_nocache4800"
+      ],
+      "identical_training_losses": true,
+      "identical_validation_bpb": true
+    }
+  ],
+  "recorded_train_hours": 13.94809689485806,
+  "recorded_process_hours": 14.24843680427889,
+  "recorded_training_targets": 4139581440,
+  "paired_test_windows": 1674,
+  "windows_improved": 1624,
+  "paired_test_bpb_improvement": 0.08460180744258519,
+  "current_source_sha256": {
+    "student.py": "825eeeb40c26975ea6ebe290d90ffaf415556776b6401d3856cedff1bd2ebffd",
+    "evaluate.py": "22194162aceab127d603254900407dc4a24c88c0c26174249ce9d503c103ce46"
+  }
+}

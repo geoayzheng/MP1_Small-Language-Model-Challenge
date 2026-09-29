@@ -1,0 +1,5 @@
+.tex-cache/
+qa/
+*.log
+*.aux
+*.out

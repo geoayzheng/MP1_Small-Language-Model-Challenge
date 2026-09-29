@@ -1,0 +1,11 @@
+{
+  "context": 256, "vocab": 2048,
+  "width": 320, "depth": 6, "heads": 5,
+  "pos_encoding": "rope", "rope_theta": 10000.0, "qk_norm": false,
+  "mlp": "gelu", "mlp_hidden": 1280,
+  "dropout": 0.2, "tie_weights": true,
+  "cache": true, "cache_dim": 64,
+  "lr": 0.001, "weight_decay": 0.1,
+  "warmup_steps": 100, "min_lr_frac": 0.1,
+  "ema_decay": 0.999, "snap_interval": 480, "snap_count": 4
+}
